@@ -1,7 +1,28 @@
+/***************************** Global */
 body {
     background: #999;
 }
 
 img {
     width: 50%; 
+}
+
+/***************************** Layout */
+
+
+
+/*****************************Typography*/
+
+
+
+/*****************************Navigation*/
+a{ 
+    display: block; 
+    border: 3px black; 
+    width: 100px;
+    height: 50px; 
+}
+
+li{ 
+    display: inline-block; 
 }
