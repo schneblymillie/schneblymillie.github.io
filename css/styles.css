@@ -17,8 +17,9 @@ img {
 
 /*****************************Navigation*/
 a{ 
-    display: block; 
-    border: 3px black; 
+    background: #222; 
+    border-radius: 5px; 
+    display: block;  
     width: 100px;
     height: 50px; 
 }
