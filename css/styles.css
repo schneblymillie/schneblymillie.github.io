@@ -89,3 +89,8 @@ a {
 a:visited {
     color: rgb(179, 179, 179)
 }
+
+ul li a {
+    color: rgb(44, 33, 36); 
+    text-decoration: none; 
+}
