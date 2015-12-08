@@ -44,7 +44,6 @@ h1{
 
 
 
-
 /*****************************Typography*/
 
 .info {
@@ -82,6 +81,7 @@ li{
 }
 
 a {
+    color: rgb(44, 33, 36); 
     text-decoration: none; 
     letter-spacing: .2em; 
 }
