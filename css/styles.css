@@ -81,7 +81,7 @@ h1{
     padding-top: 1em;
     padding-bottom: 5em;
     margin-bottom: 50px;
-    letter-spacing: .03em;
+    letter-spacing: .04em;
     font-weight: 100;
 }
 
@@ -170,5 +170,43 @@ a:hover {
     color: rgb(44,33,36); 
     
 }
+
+/*****************************MEDIA QUERIES*/
+
+@media (max-width: 1151px) {
+    .nav {
+        font-size: 2em; 
+    }
+    
+    h1 {
+        height: 2em; 
+        font-size: 8em; 
+    }
+    
+}
+
+@media (max-width: 725px) {
+    .nav {
+        font-size: 1em; 
+    }
+    
+    h1 {
+        height: 1em; 
+        font-size: 5em; 
+    }
+    
+    .desk {
+        width: 80%; 
+        height: 80%; 
+    }
+
+
+}
+
+
+
+
+
+
     
 
