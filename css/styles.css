@@ -260,7 +260,7 @@ a:hover {
 
 }
 
-@media and screen (max-width: 325px) {
+@media and screen (max-width: 500px) {
         .nav {
         font-size: 2em; 
         font-weight: 300; 
