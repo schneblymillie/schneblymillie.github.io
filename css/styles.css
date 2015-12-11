@@ -245,7 +245,8 @@ a:hover {
     }
 
     .millicent {
-        height: 3em;  
+        height: 3em; 
+        font-size: 4em; 
     }
     
     .info {
