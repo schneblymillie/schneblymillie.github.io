@@ -260,7 +260,38 @@ a:hover {
 
 }
 
+@media and screen (max-width: 325px) {
+        .nav {
+        font-size: 2em; 
+        font-weight: 300; 
+        height: auto;
+    }
+    
+    .nav li {
+        display: block; 
+    }
+    
+    h1 {
+        height: 1em; 
+        font-size: 5em; 
+    }
+    
+    .desk {
+        width: 80%; 
+        height: 80%; 
+    }
 
+    .millicent {
+        height: 3em; 
+        font-size: 4em; 
+    }
+    
+    .info {
+        font-size: 2em; 
+    }
+
+    
+}
 
 
 
