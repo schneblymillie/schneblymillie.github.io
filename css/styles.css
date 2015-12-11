@@ -230,9 +230,13 @@ a:hover {
 }
 @media (max-width: 725px) {
     .nav {
-        font-size: 1em; 
+        font-size: 2em; 
         font-weight: 300; 
-        height: auto; 
+        height: auto;
+    }
+    
+    .nav li {
+        display: block; 
     }
     
     h1 {
