@@ -220,12 +220,22 @@ a:hover {
         font-size: 7em; 
     }
     
+    .photo-title {
+        font-size: 5em; 
+    }
+    
     
 }
 
 @media (max-width: 991px) {
     .millicent {
         font-size: 5em; 
+    }
+    
+    .photo-title {
+        font-size: 4em;
+        height: 4.5em;
+        padding-top: 1em;
     }
 }
 @media (max-width: 725px) {
@@ -257,40 +267,23 @@ a:hover {
     .info {
         font-size: 2em; 
     }
-
-}
-
-@media and screen (max-width: 500px) {
-        .nav {
-        font-size: 2em; 
-        font-weight: 300; 
-        height: auto;
+    
+    .photo-title {
+        height: 5em; 
+        padding: .75em; 
     }
     
-    .nav li {
-        display: block; 
+    ul li{
+        width: 100%; 
+        height: 100%; 
+        padding-right: 0em; 
+        
     }
     
-    h1 {
-        height: 1em; 
-        font-size: 5em; 
-    }
-    
-    .desk {
-        width: 80%; 
-        height: 80%; 
+    .fullsize ul {
+        padding-left: 1em; 
     }
 
-    .millicent {
-        height: 3em; 
-        font-size: 4em; 
-    }
-    
-    .info {
-        font-size: 2em; 
-    }
-
-    
 }
 
 
