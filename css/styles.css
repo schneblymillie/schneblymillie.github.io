@@ -231,6 +231,7 @@ a:hover {
 @media (max-width: 725px) {
     .nav {
         font-size: 1em; 
+        font-weight: 300; 
     }
     
     h1 {
@@ -244,7 +245,11 @@ a:hover {
     }
 
     .millicent {
-        height: 3em; 
+        height: 3em;  
+    }
+    
+    .info {
+        font-size: 2em; 
     }
 
 }
