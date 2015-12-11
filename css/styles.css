@@ -232,6 +232,7 @@ a:hover {
     .nav {
         font-size: 1em; 
         font-weight: 300; 
+        height: auto; 
     }
     
     h1 {
