@@ -7,10 +7,11 @@ html{
 
 /***************************** Global */
 body {
-    background-image: url(../img/redbrick.jpg);
+    background-image: url(https://raw.githubusercontent.com/schneblymillie/schneblymillie.github.io/master/img/mountains.jpg);
     background-repeat: no-repeat;
     background-size: cover; 
     background-attachment: fixed;  
+    margin-top: 10em; 
 }
 
 
@@ -18,9 +19,9 @@ body {
 
 h1{
     background-color: white; 
-    margin-top: 250px; 
+    margin-top: .5em; 
     width: 100%; 
-    height: 3em; 
+    height: 5em; 
     font-weight: 100;
     font-size: 13em; 
     letter-spacing: .01em;
@@ -28,6 +29,10 @@ h1{
     text-align: center; 
     top: 0; 
     padding-top: .5em; 
+}
+
+h1.millicent {
+    margin-top: 2em; 
 }
 
 .desk {
@@ -94,8 +99,14 @@ h1{
     padding-right: 3em; 
     line-height: 1.35em; 
     letter-spacing: .05em; 
-    font-weight: 100; 
+    font-weight: 300; 
     margin-bottom: 100px; 
+}
+
+.paragraph {
+    max-width: 60%; 
+    display: block; 
+    margin: 0 auto; 
 }
 
 .resume {
@@ -132,7 +143,7 @@ h3 {
     font-weight: 100; 
     font-size: 3em;  
     position: fixed; 
-    margin-top: -250px; 
+    margin-top: -4em; 
 }
 
 li{ 
@@ -191,7 +202,9 @@ a:hover {
 
 .fullsize ul{
     display: block;  
-    padding-left: 21em; 
+/*    padding-left: 21em; */
+    margin: 0 auto; 
+    min-width: 10%; 
 }
 
 .photo-title {
