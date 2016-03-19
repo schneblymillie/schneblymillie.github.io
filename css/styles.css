@@ -146,6 +146,10 @@ h3 {
     margin-top: -5em; 
 }
 
+.navabout {
+     margin-top: -4em;
+}
+
 li{ 
     display: inline-block; 
     text-decoration: inherit;
