@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/grid.css">
     <link rel="stylesheet" href="css/styles.css" />
+    <script src="jquery.js"> </script>
+    <script src="jquery.anchorScroll.js"> </script>
     
     
 <!--FONTS-->
@@ -19,7 +21,7 @@
   <body>
       
 <!--NAVIGATION --> 
-<div class="nav, aboutnav" >     
+<div class="nav" >     
     <nav role='navigation'>
 
         <ul>
@@ -32,11 +34,16 @@
 </div>
       
     <h1 class="resume-title">ABOUT</h1>
+    <a href="#aboutme" class="anchor-scroll" data-class-to="body" data-on-scroll="blur"><img src="img/littlearrow.png" alt="" class="littlearrow"></a>
      
 <!--PHOTOGRAPH -->
     <img src="/img/couch.jpg" alt="couch" class="couch">
-     <div class="about">
-         <p>Millicent Schnebly was born and raised in the Pacific Northwest. She draws much of her inspiration from the color palette of where she grew up, and the beauty of nature is what drives her passion for design. She studied at Eastern Washington University from 2014-2016 and graduated with a Bachelor's of Visual Communication Design. She runs a freelance design business, Millicent Maker, where she specializes in hand-lettered chalkboards and signs for weddings and other events. To contact her for commissioned work or job opportunities please send her information via email at millicent.maker@gmail.com</p>
+     <div class="about"><div id="aboutme"></div>
+         <p>MillicentMaker--but you can call me Millie. I'm a graphic designer out of Coeur d'Alene, Idaho, and I cannot think of a better place for my business to grow. 
+ 
+It all started here, and then I moved to Cheney, Washington for a few years to attend Eastern Washington University where I received by Bachelors of Visual Communication Design.
+ 
+I love to work with like minded, creative, entrepreneurs who are just as picky about design as I am. I am currently accepting clients, so if you have an idea for a project, I would love to hear from you! Contact me at millicent.maker@gmail.com</p>
      </div>
      
      
@@ -47,7 +54,11 @@
          <p>behance.net/millicentmaker</p>
          
      </div>
-      
+      <script type="text/javascript">
+$('.anchor-scroll').anchorScroll({
+    scrollSpeed: 2000 // scroll speed
+});
+</script>
   </body>
 
 </html>
