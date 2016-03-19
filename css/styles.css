@@ -93,6 +93,8 @@ h1.millicent {
 .about {
     background-color: white; 
     color: rgb(44, 33, 36);
+    display: block; 
+    margin: 0 auto; 
     padding-top: 3em; 
     padding-bottom: 3em; 
     padding-left: 3em; 
@@ -101,6 +103,7 @@ h1.millicent {
     letter-spacing: .05em; 
     font-weight: 300; 
     margin-bottom: 100px; 
+    max-width: 60%; 
 }
 
 .paragraph {
