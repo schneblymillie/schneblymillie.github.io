@@ -147,7 +147,7 @@ h3 {
 }
 
 li{ 
-    display: inline-block; 
+     display: inline-block; 
     text-decoration: inherit;
     color: rgb(44, 33, 36);  
     padding-top: -1.5em; 
