@@ -320,17 +320,17 @@ a:hover {
 /*PLUGIN*/
 
 .blur {
-     /* Any browser which supports CSS3 */
-    filter: blur(2px);
+     /* Any browser which supports CSS3 */
+    filter: blur(2px);
 
-    /* Firefox */
-    -moz-filter: blur(2px);
+    /* Firefox */
+    -moz-filter: blur(2px);
 
-    /* Webkit */
-    -webkit-filter: blur(2px);
+    /* Webkit */
+    -webkit-filter: blur(2px);
 
-    /* Opera */
-    -o-filter: blur(2px);
+    /* Opera */
+    -o-filter: blur(2px);
 
 }
 

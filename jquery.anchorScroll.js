@@ -25,20 +25,20 @@
             if ($(e.target).closest('a').length && $(base.el.hash).length) {
                 var targetPos = $(base.el.hash).offset().top - base.options.offsetTop,
                     classTo = (base.$el.data("classTo") === "this") ? base.el : base.$el.data("classTo"),
-                    onScroll = base.$el.data("onScroll"),
+                    onScrollAttr = base.$el.data("onScroll"),
                     scrollEnd = base.$el.data("scrollEnd");
                 // Callback scroll start
-                if (typeof base.options.scrollStart === 'function') {
-                    base.options.scrollStart.call(el);
+                if (typeof base.options.onScroll === 'function') {
+                    base.options.onScroll.call(el);
                 }
                 // Add class to element on scroll
-                $(classTo).addClass(onScroll).removeClass(scrollEnd);
+                $(classTo).addClass(onScrollAttr).removeClass(scrollEnd);
                 // Smooth scroll
                 $('html,body').animate({
                     scrollTop: targetPos
                 }, base.options.scrollSpeed).promise().done(function() {
                     // On animation complete
-                    $(classTo).addClass(scrollEnd).removeClass(onScroll);
+                    $(classTo).addClass(scrollEnd).removeClass(onScrollAttr);
                     // Callback on scroll end
                     if (typeof base.options.scrollEnd === 'function') {
                         base.options.scrollEnd.call(el);
