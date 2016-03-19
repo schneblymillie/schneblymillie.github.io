@@ -146,8 +146,12 @@ h3 {
     margin-top: -9em; 
 }
 
+.aboutnav {
+        margin-top: -4em;
+}
+
 li{ 
-     display: inline-block; 
+    display: inline-block; 
     text-decoration: inherit;
     color: rgb(44, 33, 36);  
     padding-top: -1.5em; 
