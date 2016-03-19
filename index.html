@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/grid.css">
     <link rel="stylesheet" href="css/styles.css" />
+    <script src="jquery.anchorScroll.js"> </script>
+    <script src="jquery.js"> </script>
+    
     
     
 <!--FONTS-->
@@ -32,9 +35,10 @@
 </div>
       
     <h1 class="millicent">MILLICENT MAKER</h1>
+    <a href="#deskphoto" class="anchor-scroll" data-class-to="body" data-on-scroll="blur">...</a>
      
 <!--PHOTOGRAPH -->
-     <div class="grid-container">
+     <div class="grid-container"><div id="deskphoto"></div>
          <img src="img/desk.jpg" alt="desk photo" class="desk" class="grid-6">
      </div>
      <div class="info">
@@ -43,8 +47,15 @@
          <p>behance.net/millicentmaker</p>
          
      </div>
-      
+     
+      <script type="text/javascript">
+$('.anchor-scroll').anchorScroll({
+    scrollSpeed: 10000 // scroll speed
+});
+</script>
+ 
   </body>
+  
 
 </html>
 
