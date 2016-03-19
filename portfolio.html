@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/grid.css">
     <link rel="stylesheet" href="css/styles.css" />
+        <script src="jquery.js"> </script>
+    <script src="jquery.anchorScroll.js"> </script>
     
     
 <!--FONTS-->
@@ -32,6 +34,7 @@
 </div>
       
     <h1 class="resume-title">PORTFOLIO</h1>
+        <a href="#previouswork" class="anchor-scroll" data-class-to="body" data-on-scroll="blur"><img src="img/littlearrow.png" alt="" class="littlearrow"></a>
      
 
   
@@ -41,6 +44,8 @@
 
 
 <h3 class="photo-title">SOME OF MY PREVIOUS WORK</h3>
+
+<div id="previouswork"></div>
 
 <div class="fullsize">
   <ul>
@@ -72,6 +77,11 @@
          <p>behance.net/millicentmaker</p>
          
      </div>
+     <script type="text/javascript">
+$('.anchor-scroll').anchorScroll({
+    scrollSpeed: 2000 // scroll speed
+});
+</script>
 
 </html>
 

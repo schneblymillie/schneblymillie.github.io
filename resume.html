@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/grid.css">
     <link rel="stylesheet" href="css/styles.css" />
+    <script src="jquery.js"> </script>
+    <script src="jquery.anchorScroll.js"> </script>
     
     
 <!--FONTS-->
@@ -32,6 +34,7 @@
 </div>
       
     <h1 class="resume-title">RESUME</h1>
+    <a href="#resumeinfo" class="anchor-scroll" data-class-to="body" data-on-scroll="blur"><img src="img/littlearrow.png" alt="" class="littlearrow"></a>
      
 <!--PHOTOGRAPH -->
      <div>
@@ -39,7 +42,7 @@
      </div>
      
 <!--CONTENT -->
-    <div class="resume">
+    <div class="resume"><div id="resumeinfo"></div>
         <h2>Graphics and Web Assistant | College of Social and Behavioral Sciences and Social Work</h2>
           <h3>November 2015-Present | Eastern Washington University</h3>
         <h2>Visual Arts and Promotions Coordinator | Eagle Entertainment</h2>
@@ -75,7 +78,11 @@
          <p><a href="https://www.behance.net/millicentmaker">behance.net/millicentmaker</a></p>
          
      </div>
-      
+      <script type="text/javascript">
+$('.anchor-scroll').anchorScroll({
+    scrollSpeed: 2000 // scroll speed
+});
+</script>
   </body>
 
 </html>
